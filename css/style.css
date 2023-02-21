@@ -1,0 +1,200 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	scroll-behavior: smooth;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+body {
+	font-size: 18px;
+	font-weight: 600;
+	color: #757575;
+	background: #F6F5F4;
+	/*font-family: 'Dela Gothic One', cursive;*/
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.header {
+	margin: 30px 0px 30px 0px;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu__list{
+	display: flex;
+	gap: 30px;
+}
+
+.menu__list-link {
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: -0.04em;
+	color: #757575;
+}
+
+.menu__list-link:hover {
+	color: #000000;
+}
+
+.user {
+	display: flex;
+	gap: 30px;
+}
+
+.user__icon {
+	width: 41px;
+	height: 40px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	color: #2B788B;
+	background: #C3DCE3;
+	border-radius: 100px;
+	padding: 9px 14px;
+	gap: 14px;
+}
+
+.user__btn {
+	background: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: -0.04em;
+	color: #000000;
+}
+
+.welcome {
+	padding: 94px 0px 94px 0px;
+	background: url(../images/boy.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.welcome__left {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 48.78px;
+	max-width: 531px;
+}
+
+.welcome__subtitle {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #2B788B;
+}
+
+.welcome__title {
+	font-family: 'Dela Gothic One', cursive;
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 67px;
+	letter-spacing: -0.04em;
+	color: #000000;
+}
+
+.welcome__descr {
+	max-width: 397px;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.04em;
+}
+
+.welcome__btn {
+	width: 165px;
+	height: 44px;
+	background: #C3DCE3;
+	border-radius: 100px;
+	padding: 14px 22px;
+	gap: 19px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: -0.04em;
+	color: #2B788B;
+	
+}
