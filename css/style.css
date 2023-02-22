@@ -85,15 +85,51 @@ body {
 	background: #F6F5F4;
 	/*font-family: 'Dela Gothic One', cursive;*/
 	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -0.04em;
 }
 
 .container{
 	max-width: 1180px;
 	margin: 0 auto;
+	flex-direction: column;
+}
+
+.title {
+	font-family: 'Dela Gothic One', cursive;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 48px;
+	color: #000000;
+}
+
+.descr {
+	font-size: 18px;
+	line-height: 25px;
+	padding: 30px 0px 32px 0px;
+}
+
+.btn {
+	width: 165px;
+	height: 44px;
+	background: #C3DCE3;
+	border-radius: 100px;
+	padding: 14px 22px;
+	gap: 19px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	color: #2B788B;
+	letter-spacing: -0.04em;
+}
+
+.btn:hover {
+	color: #FFFFFF;
+	background: #2B788B;
+	transition: .3s all;
 }
 
 .header {
-	margin: 30px 0px 30px 0px;
+	padding: 30px 0px 30px 0px;
 }
 
 .header__inner {
@@ -109,7 +145,6 @@ body {
 .menu__list-link {
 	font-size: 16px;
 	line-height: 22px;
-	letter-spacing: -0.04em;
 	color: #757575;
 }
 
@@ -140,7 +175,6 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 16px;
-	letter-spacing: -0.04em;
 	color: #000000;
 }
 
@@ -155,7 +189,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 48.78px;
 	max-width: 531px;
 }
 
@@ -169,32 +202,72 @@ body {
 }
 
 .welcome__title {
+	padding-top: 24px;
 	font-family: 'Dela Gothic One', cursive;
 	font-weight: 400;
 	font-size: 56px;
 	line-height: 67px;
-	letter-spacing: -0.04em;
 	color: #000000;
 }
 
-.welcome__descr {
+.descr.welcome__descr {
 	max-width: 397px;
-	font-size: 18px;
-	line-height: 25px;
-	letter-spacing: -0.04em;
 }
 
-.welcome__btn {
-	width: 165px;
-	height: 44px;
-	background: #C3DCE3;
-	border-radius: 100px;
-	padding: 14px 22px;
-	gap: 19px;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 16px;
-	letter-spacing: -0.04em;
-	color: #2B788B;
-	
+
+.learning {
+	padding: 75px 0px 75px 0px;
+}
+
+.learning__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.learning__title {
+	max-width: 475px;
+}
+
+.learning__descr {
+	max-width: 396px;
+
+}
+
+.learning__icons {
+	display: flex;
+
+}
+
+.learning__item + .learning__item {
+	padding-left: 22px;
+}
+
+.vocabulary__inner {
+	display: flex;
+}
+
+
+.vocabulary__left {
+	padding: 136px 0px 109px 0px;
+}
+
+.vocabulary__right {
+	padding-top: 26px;
+}
+
+.progress {
+	padding-bottom: 95px;
+}
+
+.progress__inner {
+	display: flex;
+}
+
+.progress__left{
+	padding-top: 95px;
+}
+
+.progress__right {
+	padding-top: 149px;
+	max-width: 475px;
 }
