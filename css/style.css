@@ -109,8 +109,9 @@ body {
 }
 
 .btn {
-	width: 165px;
-	height: 44px;
+	padding: 14px 22px 14px 22px;
+	max-width: 200px
+	;
 	background: #C3DCE3;
 	border-radius: 100px;
 	padding: 14px 22px;
@@ -271,3 +272,41 @@ body {
 	padding-top: 149px;
 	max-width: 475px;
 }
+
+.footer {
+	padding: 40px 0px 40px 0px;
+}
+
+.footer__top {
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #E0E0E0;
+}
+
+.footer__item {
+	font-size: 14px;
+}
+
+.footer__bottom {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__media{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+
+.footer__contacts {
+	font-size: 12px;
+}
+
+.footer__link {
+	color: #757575;
+	text-decoration: underline;
+}
+
