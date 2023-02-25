@@ -110,8 +110,7 @@ body {
 
 .btn {
 	padding: 14px 22px 14px 22px;
-	max-width: 200px
-	;
+	max-width: 200px;
 	background: #C3DCE3;
 	border-radius: 100px;
 	padding: 14px 22px;
@@ -136,11 +135,17 @@ body {
 .header__inner {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+}
+
+.header__left {
+	display: flex;
 }
 
 .menu__list{
 	display: flex;
 	gap: 30px;
+	margin-left: 60px;
 }
 
 .menu__list-link {
@@ -158,6 +163,12 @@ body {
 	gap: 30px;
 }
 
+.user__logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
 .user__icon {
 	width: 41px;
 	height: 40px;
@@ -169,6 +180,10 @@ body {
 	border-radius: 100px;
 	padding: 9px 14px;
 	gap: 14px;
+}
+
+.user__name {
+	font-size: 16px;
 }
 
 .user__btn {
@@ -213,6 +228,12 @@ body {
 
 .descr.welcome__descr {
 	max-width: 397px;
+}
+
+.welcome__media {
+	margin-top: 49px;
+	display: flex;
+	gap: 98px;
 }
 
 
