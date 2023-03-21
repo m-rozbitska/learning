@@ -18,22 +18,24 @@
 				<a href="#" class="logo">
 					<img src="./images/logo.svg" alt="logo" class="logo__img">
 				</a>
-				<nav class="menu">
-					<ul class="menu__list">
-						<li class="menu__list-item">
-							<a href="#" class="menu__list-link">Home</a>
-						</li>
-						<li class="menu__list-item">
-							<a href="#" class="menu__list-link">Textbook</a>
-						</li>
-						<li class="menu__list-item">
-							<a href="#" class="menu__list-link">Statistics</a>
-						</li>
-						<li class="menu__list-item">
-							<a href="#" class="menu__list-link">Games</a>
-						</li>
-					</ul>
-				</nav>
+				<div class="header__menu">
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a href="#home" class="menu__list-link">Home</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#textbook" class="menu__list-link">Textbook</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#statistics" class="menu__list-link">Statistics</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#games" class="menu__list-link">Games</a>
+							</li>
+						</ul>
+					</nav>
+			</div>
 			</div>
 				<div class="user">
 					<div class="user__logo">
@@ -46,7 +48,7 @@
 		</div>
 	</header>
 	<main class="main">
-		<section class="welcome">
+		<section class="welcome" id="#home">
 			<div class="container">
 				<div class="welcome__inner">
 					<div class="welcome__left">
@@ -72,7 +74,7 @@
 				
 			</div>
 		</section>
-		<section class="learning">
+		<section class="learning" id="textbook">
 			<div class="container">
 				<div class="learning__content">
 					<div class="learning__left">
@@ -96,7 +98,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="vocabulary">
+		<section class="vocabulary" id="statistics">
 			<div class="container">
 				<div class="vocabulary__content">
 					<div class="vocabulary__inner">
@@ -114,7 +116,7 @@
 			</div>
 		</div>
 		</section>
-		<section class="progress">
+		<section class="progress" id="games">
 			<div class="container">
 				<div class="progress__inner">
 					<div class="progress__left">
@@ -133,7 +135,7 @@
 		<div class="container">
 			<div class="footer__top">
 				<nav class="menu footer__top-menu">
-					<ul class="menu__list">
+					<ul class="menu__list menu__top">
 						<li class="menu__list-item">
 							<a href="#" class="menu__list-link footer__item">Home</a>
 						</li>

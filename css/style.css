@@ -358,6 +358,10 @@ body {
 	border-bottom: 2px solid #E0E0E0;
 }
 
+.menu__top {
+	margin-left: 0px;	
+}
+
 .footer__item {
 	font-size: 14px;
 }
