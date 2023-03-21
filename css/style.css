@@ -195,10 +195,13 @@ body {
 }
 
 .welcome {
-	padding: 94px 0px 94px 0px;
-	background: url(../images/boy.png);
-	background-repeat: no-repeat;
-	background-position: right bottom;
+	padding: 103px 0px 94px 0px;
+	/*background: url(../images/welcome__bg.png);
+	background-repeat: no-repeat;*/
+}
+
+.welcome__inner {
+	display: flex;
 }
 
 .welcome__left {
@@ -206,6 +209,7 @@ body {
 	flex-direction: column;
 	align-items: flex-start;
 	max-width: 531px;
+	
 }
 
 .welcome__subtitle {
@@ -237,6 +241,13 @@ body {
 }
 
 
+.welcome__image {
+	position: relative;
+	width: 609px;
+	right: 25px;
+}
+
+
 .learning {
 	padding: 75px 0px 75px 0px;
 }
@@ -257,11 +268,53 @@ body {
 
 .learning__icons {
 	display: flex;
-
+	gap: 21px;
 }
 
-.learning__item + .learning__item {
-	padding-left: 22px;
+.learning__item {
+	text-align: center;
+}
+
+
+.left {
+	width: 129px;
+	height: 112px;
+	background: #F2D4DC;
+	border-radius: 14px;
+}
+
+.learning__text{
+	position: relative;
+	bottom: 19px;
+	background: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	color: #945069;
+}
+
+
+.text__right {
+	color: #2B788B;
+}
+
+.learning__boots-img {
+	position: relative;
+	bottom: 14px;
+}
+
+.right {
+	width: 172px;
+	height: 112px;
+	background: #C3DCE3;
+	border-radius: 14px;
+}
+
+
+.learning__audio-img {
+	position: relative;
+	bottom: 21px;
+	left: 10px;
 }
 
 .vocabulary__inner {
