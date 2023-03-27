@@ -10,12 +10,12 @@ if (menu && menuBtn) {
 		body.classList.toggle('lock')
 	})
 
-	menu.querySelectorAll('menu__list-link').forEach(link => {
+
+	menu.querySelectorAll('.menu__list-link').forEach(link => {
 		link.addEventListener('click', () => {
 		menu.classList.remove('active')
 		menuBtn.classList.remove('active')
 		body.classList.remove('lock')
 	})
 })
-
 }
