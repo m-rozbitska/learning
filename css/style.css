@@ -86,10 +86,12 @@ body {
 	/*font-family: 'Dela Gothic One', cursive;*/
 	font-family: "Montserrat", sans-serif;
 	letter-spacing: -0.04em;
+
 }
 
-body.lock {
+.lock {
 	overflow: hidden;
+	padding-right: 34px;
 }
 
 .container {
@@ -228,6 +230,7 @@ body.lock {
 		text-decoration: none;
 		background: none;
 		border: none;
+		margin-left: 20px;
 		width: 25px;
 		height: 25px;
 		position: relative;
@@ -244,6 +247,7 @@ body.lock {
 		background-color: #000000;
 		transition: all 0.2s;
 	}
+
 
 	span:first-child {
 		top: 0;
@@ -266,11 +270,13 @@ body.lock {
 	span:first-child:active {
 		transform: rotate(-45deg);
 		top: calc(50% - 1px);
+		width: 100%;
 	}
 
 	span:last-child:active {
 		transform: rotate(45deg);
 		bottom: calc(50% - 1px);
+		width: 100%;
 	}
 
 	.menu__body {
