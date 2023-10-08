@@ -83,7 +83,6 @@ body {
 	font-weight: 600;
 	color: #757575;
 	background: #f6f5f4;
-	/*font-family: 'Dela Gothic One', cursive;*/
 	font-family: "Montserrat", sans-serif;
 	letter-spacing: -0.04em;
 
@@ -320,8 +319,6 @@ body {
 
 .welcome {
 	padding: 103px 0px 94px 0px;
-	/*background: url(../images/welcome__bg.png);
-	background-repeat: no-repeat;*/
 }
 
 .welcome__inner {
